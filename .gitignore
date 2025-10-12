@@ -1,0 +1,8 @@
+node_modules
+ai
+wrap.md 
+__pycache__
+KMS/logs
+.env
+.env.local
+Ai-Voice-Assistant-using-livekit-main/ai

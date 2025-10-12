@@ -1,0 +1,137 @@
+2025-10-12 12:33:14,917 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:33:14,917 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:33:28,163 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:33:28,213 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:33:28,612 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:33:28,612 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:33:28,613 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:33:29,561 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-10-12 12:33:39,576 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:33:40,110 - rag.retrieval_system - WARNING - No relevant context found for query: How does the product work?
+2025-10-12 12:33:40,376 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:35:42,310 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:35:42,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:35:45,217 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:35:45,252 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:35:45,406 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:35:45,406 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:35:45,406 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:35:45,970 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:35:46,528 - rag.retrieval_system - WARNING - No relevant context found for query: How does the DD solution work?
+2025-10-12 12:35:46,791 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:35:47,289 - rag.retrieval_system - WARNING - No relevant context found for query: What features are included in the product?
+2025-10-12 12:35:47,785 - rag.retrieval_system - WARNING - No relevant context found for query: How do I place an order?
+2025-10-12 12:35:48,036 - rag.retrieval_system - WARNING - No relevant context found for query: What is your refund policy?
+2025-10-12 12:39:26,040 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:39:26,040 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:39:31,093 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:39:31,130 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:39:31,285 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:39:31,285 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:39:31,285 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:39:31,851 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:39:32,412 - rag.retrieval_system - WARNING - No relevant context found for query: How does the product work?
+2025-10-12 12:39:32,662 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:40:20,021 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:40:20,021 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:40:23,820 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:40:23,853 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:40:24,011 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:40:24,011 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:40:24,011 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:40:24,606 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:40:25,294 - rag.retrieval_system - WARNING - No relevant context found for query: How does the product work?
+2025-10-12 12:40:25,553 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:40:44,834 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:40:44,835 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:40:47,755 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:40:47,786 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:40:47,940 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:40:47,940 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:40:47,940 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:40:48,513 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:40:49,068 - rag.retrieval_system - WARNING - No relevant context found for query: How does the product work?
+2025-10-12 12:40:49,323 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:41:19,389 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:41:19,389 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:41:22,291 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:41:22,327 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:41:22,481 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:41:22,481 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:41:22,481 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:41:23,043 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:41:23,610 - rag.retrieval_system - WARNING - No relevant context found for query: How does the DD solution work?
+2025-10-12 12:41:23,872 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:41:24,377 - rag.retrieval_system - WARNING - No relevant context found for query: What features are included in the product?
+2025-10-12 12:41:24,879 - rag.retrieval_system - WARNING - No relevant context found for query: How do I place an order?
+2025-10-12 12:41:25,132 - rag.retrieval_system - WARNING - No relevant context found for query: What is your refund policy?
+2025-10-12 12:46:54,119 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:46:54,417 - rag.document_processor - ERROR - Failed to load embedding model all-MiniLM-L6-v2: hf_hub_download() got an unexpected keyword argument 'url'
+2025-10-12 12:46:54,417 - rag.knowledge_manager - ERROR - Failed to initialize Knowledge Manager: hf_hub_download() got an unexpected keyword argument 'url'
+2025-10-12 12:46:54,417 - __main__ - ERROR - Knowledge base setup failed: hf_hub_download() got an unexpected keyword argument 'url'
+2025-10-12 12:48:08,294 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:48:10,727 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:48:10,730 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:48:10,762 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:48:11,012 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:48:11,012 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:48:11,012 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:48:11,023 - rag.knowledge_manager - INFO - Refreshing faq from data/documents/faq.pdf
+2025-10-12 12:48:11,025 - rag.knowledge_manager - INFO - Processing document: data/documents/faq.pdf as faq
+2025-10-12 12:48:11,026 - rag.document_processor - INFO - Processing PDF with 1 pages: data/documents/faq.pdf
+2025-10-12 12:48:11,028 - rag.document_processor - INFO - Extracted 340 characters from data/documents/faq.pdf
+2025-10-12 12:48:11,081 - rag.document_processor - INFO - Generated embeddings for 1 texts
+2025-10-12 12:48:11,081 - rag.document_processor - INFO - Successfully processed data/documents/faq.pdf: 1 chunks with embeddings
+2025-10-12 12:48:11,105 - rag.vector_store - INFO - Stored 1 chunks in faq collection
+2025-10-12 12:48:11,105 - rag.knowledge_manager - INFO - Successfully added 1 chunks from data/documents/faq.pdf to faq collection
+2025-10-12 12:48:11,105 - rag.knowledge_manager - INFO - Refreshing products from data/documents/product_details.pdf
+2025-10-12 12:48:11,108 - rag.knowledge_manager - INFO - Processing document: data/documents/product_details.pdf as products
+2025-10-12 12:48:11,108 - rag.document_processor - INFO - Processing PDF with 1 pages: data/documents/product_details.pdf
+2025-10-12 12:48:11,110 - rag.document_processor - INFO - Extracted 330 characters from data/documents/product_details.pdf
+2025-10-12 12:48:11,147 - rag.document_processor - INFO - Generated embeddings for 1 texts
+2025-10-12 12:48:11,147 - rag.document_processor - INFO - Successfully processed data/documents/product_details.pdf: 1 chunks with embeddings
+2025-10-12 12:48:11,168 - rag.vector_store - INFO - Stored 1 chunks in products collection
+2025-10-12 12:48:11,168 - rag.knowledge_manager - INFO - Successfully added 1 chunks from data/documents/product_details.pdf to products collection
+2025-10-12 12:48:11,168 - rag.knowledge_manager - INFO - Refreshing orders from data/documents/order_info.pdf
+2025-10-12 12:48:11,171 - rag.knowledge_manager - INFO - Processing document: data/documents/order_info.pdf as orders
+2025-10-12 12:48:11,172 - rag.document_processor - INFO - Processing PDF with 1 pages: data/documents/order_info.pdf
+2025-10-12 12:48:11,174 - rag.document_processor - INFO - Extracted 275 characters from data/documents/order_info.pdf
+2025-10-12 12:48:11,210 - rag.document_processor - INFO - Generated embeddings for 1 texts
+2025-10-12 12:48:11,210 - rag.document_processor - INFO - Successfully processed data/documents/order_info.pdf: 1 chunks with embeddings
+2025-10-12 12:48:11,231 - rag.vector_store - INFO - Stored 1 chunks in orders collection
+2025-10-12 12:48:11,232 - rag.knowledge_manager - INFO - Successfully added 1 chunks from data/documents/order_info.pdf to orders collection
+2025-10-12 12:48:11,232 - rag.knowledge_manager - INFO - Document refresh complete: 3/3 successful
+2025-10-12 12:48:11,241 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:48:13,326 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:48:13,330 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:48:13,338 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:48:13,338 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:48:13,338 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:48:14,010 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:48:14,521 - rag.retrieval_system - WARNING - No relevant context found for query: How does the product work?
+2025-10-12 12:48:14,782 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:48:14,789 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:48:16,892 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:48:16,895 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:48:16,902 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:48:16,902 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:48:16,902 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:48:17,459 - rag.retrieval_system - WARNING - No relevant context found for query: What are your pricing plans?
+2025-10-12 12:48:17,990 - rag.retrieval_system - WARNING - No relevant context found for query: How does the DD solution work?
+2025-10-12 12:48:18,259 - rag.retrieval_system - WARNING - No relevant context found for query: How do I get support?
+2025-10-12 12:48:18,774 - rag.retrieval_system - WARNING - No relevant context found for query: What features are included in the product?
+2025-10-12 12:48:19,296 - rag.retrieval_system - WARNING - No relevant context found for query: How do I place an order?
+2025-10-12 12:48:19,557 - rag.retrieval_system - WARNING - No relevant context found for query: What is your refund policy?
+2025-10-12 12:51:33,144 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-12 12:51:35,558 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-12 12:51:35,562 - rag.document_processor - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-12 12:51:35,585 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 12:51:35,735 - rag.vector_store - INFO - ChromaDB initialized successfully at ./chroma_db
+2025-10-12 12:51:35,736 - rag.retrieval_system - INFO - Smart Retriever initialized
+2025-10-12 12:51:35,736 - rag.knowledge_manager - INFO - Knowledge Manager initialized successfully
+2025-10-12 12:51:36,325 - rag.retrieval_system - INFO - Retrieved context for 'What are your pricing plans?': 642 characters
+2025-10-12 12:51:36,900 - rag.retrieval_system - INFO - Retrieved context for 'How does the DD solution work?': 693 characters
+2025-10-12 12:51:37,162 - rag.retrieval_system - INFO - Retrieved context for 'How do I get support?': 346 characters
+2025-10-12 12:51:37,669 - rag.retrieval_system - INFO - Retrieved context for 'What features are included in the product?': 693 characters
+2025-10-12 12:51:38,190 - rag.retrieval_system - INFO - Retrieved context for 'How do I place an order?': 642 characters
+2025-10-12 12:51:38,447 - rag.retrieval_system - INFO - Retrieved context for 'What is your refund policy?': 346 characters

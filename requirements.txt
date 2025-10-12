@@ -1,0 +1,16 @@
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-silero
+livekit-plugins-google
+livekit-plugins-noise-cancellation
+mem0ai
+duckduckgo-search
+langchain_community
+requests
+python-dotenv
+# RAG Dependencies
+chromadb>=0.4.15
+pypdf2>=3.0.1
+sentence-transformers>=2.2.2
+langchain>=0.1.0
+reportlab 

@@ -35,4 +35,6 @@ LIVEKIT_API_SECRET=
 
 GOOGLE_API_KEY=
 
+## To RUN the Main Application
+./run_system.sh
 
