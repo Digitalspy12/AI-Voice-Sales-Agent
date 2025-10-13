@@ -1,6 +1,6 @@
 DEMO :
-
-<video src="https://raw.githubusercontent.com/Digitalspy12/AI-Voice-Sales-Agent/main/public/LivekitDEmo.mp4" controls></video>   
+## Click to watch the demo on YouTube
+[![Demo Video](https://img.youtube.com/vi/zy0UT1wrYWc/0.jpg)](https://youtu.be/zy0UT1wrYWc)  
 
 ## If error related Venv
 - Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
@@ -41,4 +41,5 @@ GOOGLE_API_KEY=
 
 ## To RUN the Main Application
 ./run_system.sh
+
 
