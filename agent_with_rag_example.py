@@ -6,7 +6,6 @@ for enhanced responses with company-specific information.
 """
 
 from dotenv import load_dotenv
-
 from livekit import agents
 from livekit.agents import AgentSession, Agent, RoomInputOptions, ChatContext
 from livekit.plugins import (
@@ -126,15 +125,20 @@ async def entrypoint(ctx: agents.JobContext):
         knowledge_base = None
 
     # Get user memories
-    results = await memo.get_all(user_id=user_name)
+    response = await memo.get_all(
+        filters={"user_id": user_name}
+    )
+    # Handle both new mem0 versions (returns dict with "results") and older versions (returns list)
+    results = response.get("results", []) if isinstance(response, dict) else response
+
     initial_ctx = ChatContext()
     memory_str = ''
 
     if results:
         memories = [
             {
-                "memory": result["memory"],
-                "updated_at": result["updated_at"]
+                "memory": result.get("memory", ""),
+                "updated_at": result.get("updated_at", "")
             }
             for result in results
         ]
